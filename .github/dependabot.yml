@@ -5,9 +5,9 @@
 
 version: 2
 updates:
-  - package-ecosystem: "maven" # See documentation for possible values
+  - package-ecosystem: "Maven" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
+      interval: "daily"
     # Allow up to 10 open pull requests for pip dependencies
     open-pull-requests-limit: 5
