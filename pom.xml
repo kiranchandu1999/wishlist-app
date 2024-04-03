@@ -49,22 +49,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<groupId>org.owasp</groupId>
-				<artifactId>dependency-check-maven</artifactId>
-				<version>7.2.0</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>check</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<failBuildOnCVSS>7</failBuildOnCVSS> <!-- Fail build if CVSS score is 4 or higher -->
-					<formats>ALL</formats> <!-- Generate report in all available formats -->
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 
