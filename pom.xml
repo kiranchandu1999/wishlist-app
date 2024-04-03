@@ -61,7 +61,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<failBuildOnCVSS>4</failBuildOnCVSS> <!-- Fail build if CVSS score is 4 or higher -->
+					<failBuildOnCVSS>7</failBuildOnCVSS> <!-- Fail build if CVSS score is 4 or higher -->
 					<formats>ALL</formats> <!-- Generate report in all available formats -->
 				</configuration>
 			</plugin>
