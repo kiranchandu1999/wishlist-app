@@ -10,4 +10,4 @@ updates:
     schedule:
       interval: "daily"
     # Allow up to some open pull requests for maven dependencies
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 10
